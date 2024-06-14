@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('../img/갈매기와바다.jpeg') no-repeat center center fixed;
+    background-size: cover; 
+    transition: background-image 1s ease-in-out;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-image {
+    position: absolute;
+    top: 14%; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: auto;
+}
+
+.first_1 {
+    position: absolute;
+    bottom: 150px; 
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 150px; 
+}
+
+button {
+    padding: 5px 50px;
+    font-size: 16px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
